@@ -1,7 +1,8 @@
 Poly-gone
 =========
+A chrome extension to hide articles on polygon.com. Simply provide a javascript regular expression to match against (i.e. destiny|xbox) andy any articles with matching titles will be modified. By default, the title/text/photo are removed, but these can also be replaced with new values.
 
-A chrome extension to hide articles on polygon.com. See screenshots of it in action at http://imgur.com/a/JI9Eo .
+See screenshots of it in action at http://imgur.com/a/JI9Eo.
 
 Why Polygon?
 ------------
