@@ -14,4 +14,4 @@ This approach is pretty hackish and there are certainly other ways to regulate w
 
 Known Issues
 ------------
-You may notice images flickering on replaced stories. This happens (AFAICT) because the site tries to lazy-load images using a technique that resets the image style when scrolling. I'm sure there are ways to fix this, but as they likely involve very invasive approaches, I wanted to hold off on that for now. If it bugs you, you can try setting the opacity to 0 instead.
+You may notice images flickering on replaced stories. This happens (AFAICT) because the site tries to lazy-load images using a technique that resets the image style when scrolling. I'm sure there are ways to fix this, but as they likely involve very invasive approaches. If it bugs you or you have suggestions on how to handle this, please comment on issue #1 and consider setting the opacity to 0 instead.
