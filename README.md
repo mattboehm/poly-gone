@@ -1,6 +1,6 @@
 Poly-gone
 =========
-A chrome extension to hide articles on polygon.com. Simply provide a javascript regular expression to match against (i.e. destiny|xbox) andy any articles with matching titles will be modified. By default, the title/text/photo are removed, but these can also be replaced with new values.
+A chrome extension to hide articles on polygon.com. Simply provide a javascript regular expression to match against (i.e. destiny|xbox) and any articles with matching titles will be modified. By default, the title/text/photo are removed, but these can also be replaced with new values.
 
 See screenshots of it in action at http://imgur.com/a/JI9Eo.
 
@@ -14,4 +14,4 @@ This approach is pretty hackish and there are certainly other ways to regulate w
 
 Known Issues
 ------------
-You may notice images flickering on replaced stories. This happens (AFAICT) because the site tries to lazy-load images using a technique that resets the image style when scrolling. I'm sure there are ways to fix this, but as they likely involve very invasive approaches. If it bugs you or you have suggestions on how to handle this, please comment on issue #1 and consider setting the opacity to 0 instead.
+You may notice images flickering on replaced stories. This happens (AFAICT) because the site tries to lazy-load images using a technique that resets the image style when scrolling. I'm sure there are ways to fix this, but they likely involve very invasive approaches. If it bugs you or you have suggestions on how to handle this, please comment on issue #1 and consider setting the opacity to 0 instead.
