@@ -81,6 +81,21 @@ chrome.extension.sendMessage({}, function(response) {
 					title: $(">a", entry)
 				});
 			});
+			$(".m-video-browser__player").each(function(i, entry){
+				entries.push({
+					entry: entry,
+					title: $(".m-video-browser__player-title", entry),
+					image: $(".m-video-browser__player-image", entry)
+				});
+			});
+			$(".m-video-browser__selector-thumb").each(function(i, entry){
+				entries.push({
+					entry: entry,
+					title: $("h3", entry),
+					image: $(".m-video-browser__thumb-image", entry)
+				});
+			});
+			
 			return entries;
 		}
 		var replaceMatching = function(entries){
