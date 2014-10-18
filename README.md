@@ -1,11 +1,11 @@
 Poly-gone
 =========
 
-A chrome extension to hide articles on polygon.com.
+A chrome extension to hide articles on polygon.com. See screenshots of it in action at http://imgur.com/a/JI9Eo .
 
 Why Polygon?
 ------------
-This concept could just as easily be extended to any site, but polygon.com happens to be my personal favorite site for gaming news. That being said, there are many subjects (i.e. consoles/games I never plan on owning) that I know I'll never care to read about. I've noticed many people complaining about seeing content they're not interested, so I decided to make a tool that tries to help.
+This concept could just as easily be extended to any site, but polygon.com happens to be my personal favorite site for gaming news. That being said, there are many subjects (i.e. consoles/games I never plan on owning) that I know I'll never care to read about. I've noticed many people complaining about seeing content they're not interested in, so I decided to make a tool that tries to help.
 
 Aren't There Better Solutions?
 ------------------------------
